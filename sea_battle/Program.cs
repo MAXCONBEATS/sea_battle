@@ -94,7 +94,7 @@ class GameField
     {
         return shotCounter;
     }
-    public void SaveResult() { File.AppendAllText("score.txt", $"\n {DateTime.Now} - {shotCounter}");  }
+    public void SaveResult() { File.AppendAllText("C:\\Users\\maxco\\source\\repos\\sea_battle\\sea_battle\\score.txt", $"\n {DateTime.Now} - {shotCounter}");  }
 }
 
 class Program
